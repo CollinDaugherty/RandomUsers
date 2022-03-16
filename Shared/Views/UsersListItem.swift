@@ -13,22 +13,11 @@ struct UsersListItem: View {
     
     var body: some View {
         HStack(spacing: 16) {
-            AsyncImage(url: viewModel.thumbnail) { image in
-                image.resizable()
-            } placeholder: {
-                Color.gray
-            }
-            .frame(width: 50, height: 50)
-            .clipShape(Circle())
-            .matchedGeometryEffect(id: "\(viewModel.id)-photo", in: namespace)
+            UserPhoto(id: viewModel.id, url: viewModel.photo, namespace: namespace)
+                .frame(width: 50, height: 50)
+                .clipShape(Circle())
             
-            VStack(alignment: .leading) {
-                Text(viewModel.fullName)
-                    .font(.headline)
-                Text(viewModel.email)
-                    .font(.subheadline)
-                    .foregroundColor(Color(.secondaryLabel))
-            }
+            UserInfo(fullName: viewModel.fullName, email: viewModel.email)
         }
         .matchedGeometryEffect(id: "\(viewModel.id)-item", in: namespace)
     }

@@ -13,27 +13,11 @@ struct UsersGridItem: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            AsyncImage(url: viewModel.photo) { image in
-                image.resizable()
-            } placeholder: {
-                Color.gray
-            }
-            .scaledToFit()
-            .frame(maxWidth: .infinity)
-            .matchedGeometryEffect(id: "\(viewModel.id)-photo", in: namespace)
+            UserPhoto(id: viewModel.id, url: viewModel.photo, namespace: namespace)
+                .frame(maxWidth: .infinity)
             
-            VStack() {
-                Text(viewModel.fullName)
-                    .font(.headline)
-                    .lineLimit(1)
-                    .minimumScaleFactor(0.01)
-                Text(viewModel.email)
-                    .font(.subheadline)
-                    .lineLimit(1)
-                    .minimumScaleFactor(0.01)
-                    .foregroundColor(Color(.secondaryLabel))
-            }
-            .padding()
+            UserInfo(fullName: viewModel.fullName, email: viewModel.email, alignment: .center)
+                .padding()
         }
         .background(Color(.secondarySystemGroupedBackground))
         .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
