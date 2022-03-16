@@ -12,7 +12,7 @@ struct UserGrid: View {
     
     var body: some View {
         ScrollView {
-            LazyVGrid(columns: [GridItem](repeating: GridItem(.flexible(minimum: 175, maximum: 200)), count: 2)) {
+            LazyVGrid(columns: [GridItem](repeating: GridItem(.adaptive(minimum: 175, maximum: 200)), count: 2)) {
                 ForEach(users, id: \.login.uuid) { user in
                     UsersGridItem(viewModel: UsersListItemViewModel(user: user))
                 }

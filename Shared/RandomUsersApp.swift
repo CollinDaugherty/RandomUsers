@@ -12,6 +12,7 @@ struct RandomUsersApp: App {
     var body: some Scene {
         WindowGroup {
             UserCollection()
+                .navigationViewStyle(StackNavigationViewStyle())
         }
     }
 }
