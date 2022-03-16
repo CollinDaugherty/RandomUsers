@@ -16,8 +16,8 @@ struct UserList: View {
                 ProgressView()
             } else {
                 List {
-                    ForEach(viewModel.users, id: \.self) { user in
-                        Text(user.email)
+                    ForEach(viewModel.users, id: \.login.uuid) { user in
+                        UsersListItem(viewModel: UsersListItemViewModel(user: user))
                     }
                 }
             }

@@ -17,6 +17,10 @@
 		F05B76ED27E12273009532D6 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76EA27E11FB9009532D6 /* UserListViewModel.swift */; };
 		F05B76EF27E1236E009532D6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76EE27E1236E009532D6 /* User.swift */; };
 		F05B76F027E124D9009532D6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76EE27E1236E009532D6 /* User.swift */; };
+		F05B76F227E23CB5009532D6 /* UsersListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76F127E23CB5009532D6 /* UsersListItem.swift */; };
+		F05B76F327E23CB5009532D6 /* UsersListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76F127E23CB5009532D6 /* UsersListItem.swift */; };
+		F05B76F527E23D77009532D6 /* UsersListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76F427E23D77009532D6 /* UsersListItemViewModel.swift */; };
+		F05B76F627E23D77009532D6 /* UsersListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76F427E23D77009532D6 /* UsersListItemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,8 @@
 		F05B76D827E11CE1009532D6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		F05B76EA27E11FB9009532D6 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
 		F05B76EE27E1236E009532D6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F05B76F127E23CB5009532D6 /* UsersListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListItem.swift; sourceTree = "<group>"; };
+		F05B76F427E23D77009532D6 /* UsersListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListItemViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				F05B76CA27E11CE1009532D6 /* UserList.swift */,
+				F05B76F127E23CB5009532D6 /* UsersListItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -98,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				F05B76EA27E11FB9009532D6 /* UserListViewModel.swift */,
+				F05B76F427E23D77009532D6 /* UsersListItemViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -208,7 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05B76F527E23D77009532D6 /* UsersListItemViewModel.swift in Sources */,
 				F05B76EF27E1236E009532D6 /* User.swift in Sources */,
+				F05B76F227E23CB5009532D6 /* UsersListItem.swift in Sources */,
 				F05B76DB27E11CE1009532D6 /* UserList.swift in Sources */,
 				F05B76EB27E11FB9009532D6 /* UserListViewModel.swift in Sources */,
 				F05B76D927E11CE1009532D6 /* RandomUsersApp.swift in Sources */,
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05B76F627E23D77009532D6 /* UsersListItemViewModel.swift in Sources */,
 				F05B76F027E124D9009532D6 /* User.swift in Sources */,
+				F05B76F327E23CB5009532D6 /* UsersListItem.swift in Sources */,
 				F05B76EC27E12270009532D6 /* UserList.swift in Sources */,
 				F05B76ED27E12273009532D6 /* UserListViewModel.swift in Sources */,
 				F05B76DA27E11CE1009532D6 /* RandomUsersApp.swift in Sources */,
