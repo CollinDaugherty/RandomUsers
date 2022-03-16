@@ -24,7 +24,6 @@
 		F05B76CA27E11CE1009532D6 /* UserCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollection.swift; sourceTree = "<group>"; };
 		F05B76CB27E11CE1009532D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F05B76D027E11CE1009532D6 /* RandomUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F05B76D827E11CE1009532D6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		F05B76EA27E11FB9009532D6 /* UserCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewModel.swift; sourceTree = "<group>"; };
 		F05B76EE27E1236E009532D6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F05B76F127E23CB5009532D6 /* UsersListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListItem.swift; sourceTree = "<group>"; };
@@ -49,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				F05B76C827E11CE1009532D6 /* Shared */,
-				F05B76D727E11CE1009532D6 /* macOS */,
 				F05B76D127E11CE1009532D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,14 +70,6 @@
 				F05B76D027E11CE1009532D6 /* RandomUsers.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F05B76D727E11CE1009532D6 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				F05B76D827E11CE1009532D6 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 		F05B76E727E11EE3009532D6 /* Views */ = {
