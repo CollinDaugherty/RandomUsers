@@ -22,7 +22,10 @@ struct UsersListItem: View {
             
             VStack(alignment: .leading) {
                 Text(viewModel.fullName)
+                    .font(.headline)
                 Text(viewModel.email)
+                    .font(.subheadline)
+                    .foregroundColor(Color(.secondaryLabel))
             }
         }
     }

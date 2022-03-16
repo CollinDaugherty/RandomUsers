@@ -9,31 +9,40 @@
 /* Begin PBXBuildFile section */
 		F05B76D927E11CE1009532D6 /* RandomUsersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76C927E11CE1009532D6 /* RandomUsersApp.swift */; };
 		F05B76DA27E11CE1009532D6 /* RandomUsersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76C927E11CE1009532D6 /* RandomUsersApp.swift */; };
-		F05B76DB27E11CE1009532D6 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76CA27E11CE1009532D6 /* UserList.swift */; };
+		F05B76DB27E11CE1009532D6 /* UserCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76CA27E11CE1009532D6 /* UserCollection.swift */; };
 		F05B76DD27E11CE1009532D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05B76CB27E11CE1009532D6 /* Assets.xcassets */; };
 		F05B76DE27E11CE1009532D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05B76CB27E11CE1009532D6 /* Assets.xcassets */; };
-		F05B76EB27E11FB9009532D6 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76EA27E11FB9009532D6 /* UserListViewModel.swift */; };
-		F05B76EC27E12270009532D6 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76CA27E11CE1009532D6 /* UserList.swift */; };
-		F05B76ED27E12273009532D6 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76EA27E11FB9009532D6 /* UserListViewModel.swift */; };
+		F05B76EB27E11FB9009532D6 /* UserCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76EA27E11FB9009532D6 /* UserCollectionViewModel.swift */; };
+		F05B76EC27E12270009532D6 /* UserCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76CA27E11CE1009532D6 /* UserCollection.swift */; };
+		F05B76ED27E12273009532D6 /* UserCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76EA27E11FB9009532D6 /* UserCollectionViewModel.swift */; };
 		F05B76EF27E1236E009532D6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76EE27E1236E009532D6 /* User.swift */; };
 		F05B76F027E124D9009532D6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76EE27E1236E009532D6 /* User.swift */; };
 		F05B76F227E23CB5009532D6 /* UsersListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76F127E23CB5009532D6 /* UsersListItem.swift */; };
 		F05B76F327E23CB5009532D6 /* UsersListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76F127E23CB5009532D6 /* UsersListItem.swift */; };
 		F05B76F527E23D77009532D6 /* UsersListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76F427E23D77009532D6 /* UsersListItemViewModel.swift */; };
 		F05B76F627E23D77009532D6 /* UsersListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76F427E23D77009532D6 /* UsersListItemViewModel.swift */; };
+		F05B76F827E25824009532D6 /* UsersGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76F727E25824009532D6 /* UsersGridItem.swift */; };
+		F05B76F927E25824009532D6 /* UsersGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76F727E25824009532D6 /* UsersGridItem.swift */; };
+		F05B76FB27E25D4B009532D6 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76FA27E25D4B009532D6 /* UserList.swift */; };
+		F05B76FC27E25D4B009532D6 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76FA27E25D4B009532D6 /* UserList.swift */; };
+		F05B76FE27E25DA7009532D6 /* UserGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76FD27E25DA7009532D6 /* UserGrid.swift */; };
+		F05B76FF27E25DA7009532D6 /* UserGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B76FD27E25DA7009532D6 /* UserGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F05B76C927E11CE1009532D6 /* RandomUsersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersApp.swift; sourceTree = "<group>"; };
-		F05B76CA27E11CE1009532D6 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
+		F05B76CA27E11CE1009532D6 /* UserCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollection.swift; sourceTree = "<group>"; };
 		F05B76CB27E11CE1009532D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F05B76D027E11CE1009532D6 /* RandomUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05B76D627E11CE1009532D6 /* RandomUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05B76D827E11CE1009532D6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		F05B76EA27E11FB9009532D6 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		F05B76EA27E11FB9009532D6 /* UserCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewModel.swift; sourceTree = "<group>"; };
 		F05B76EE27E1236E009532D6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F05B76F127E23CB5009532D6 /* UsersListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListItem.swift; sourceTree = "<group>"; };
 		F05B76F427E23D77009532D6 /* UsersListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListItemViewModel.swift; sourceTree = "<group>"; };
+		F05B76F727E25824009532D6 /* UsersGridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersGridItem.swift; sourceTree = "<group>"; };
+		F05B76FA27E25D4B009532D6 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
+		F05B76FD27E25DA7009532D6 /* UserGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +104,11 @@
 		F05B76E727E11EE3009532D6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F05B76CA27E11CE1009532D6 /* UserList.swift */,
+				F05B76CA27E11CE1009532D6 /* UserCollection.swift */,
+				F05B76FA27E25D4B009532D6 /* UserList.swift */,
 				F05B76F127E23CB5009532D6 /* UsersListItem.swift */,
+				F05B76FD27E25DA7009532D6 /* UserGrid.swift */,
+				F05B76F727E25824009532D6 /* UsersGridItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,7 +116,7 @@
 		F05B76E827E11F02009532D6 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				F05B76EA27E11FB9009532D6 /* UserListViewModel.swift */,
+				F05B76EA27E11FB9009532D6 /* UserCollectionViewModel.swift */,
 				F05B76F427E23D77009532D6 /* UsersListItemViewModel.swift */,
 			);
 			path = ViewModels;
@@ -218,9 +230,12 @@
 			files = (
 				F05B76F527E23D77009532D6 /* UsersListItemViewModel.swift in Sources */,
 				F05B76EF27E1236E009532D6 /* User.swift in Sources */,
+				F05B76FE27E25DA7009532D6 /* UserGrid.swift in Sources */,
 				F05B76F227E23CB5009532D6 /* UsersListItem.swift in Sources */,
-				F05B76DB27E11CE1009532D6 /* UserList.swift in Sources */,
-				F05B76EB27E11FB9009532D6 /* UserListViewModel.swift in Sources */,
+				F05B76DB27E11CE1009532D6 /* UserCollection.swift in Sources */,
+				F05B76FB27E25D4B009532D6 /* UserList.swift in Sources */,
+				F05B76EB27E11FB9009532D6 /* UserCollectionViewModel.swift in Sources */,
+				F05B76F827E25824009532D6 /* UsersGridItem.swift in Sources */,
 				F05B76D927E11CE1009532D6 /* RandomUsersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,9 +246,12 @@
 			files = (
 				F05B76F627E23D77009532D6 /* UsersListItemViewModel.swift in Sources */,
 				F05B76F027E124D9009532D6 /* User.swift in Sources */,
+				F05B76FF27E25DA7009532D6 /* UserGrid.swift in Sources */,
 				F05B76F327E23CB5009532D6 /* UsersListItem.swift in Sources */,
-				F05B76EC27E12270009532D6 /* UserList.swift in Sources */,
-				F05B76ED27E12273009532D6 /* UserListViewModel.swift in Sources */,
+				F05B76EC27E12270009532D6 /* UserCollection.swift in Sources */,
+				F05B76FC27E25D4B009532D6 /* UserList.swift in Sources */,
+				F05B76ED27E12273009532D6 /* UserCollectionViewModel.swift in Sources */,
+				F05B76F927E25824009532D6 /* UsersGridItem.swift in Sources */,
 				F05B76DA27E11CE1009532D6 /* RandomUsersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

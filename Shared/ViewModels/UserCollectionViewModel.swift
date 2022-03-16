@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UserListViewModel: ObservableObject {
+class UserCollectionViewModel: ObservableObject {
     @Published var users: [User] = []
     
     func loadData() async {
