@@ -10,7 +10,7 @@ import SwiftUI
 struct UserCollection: View {
     @ObservedObject private var viewModel = UserCollectionViewModel()
     @State private var displayGrid: Bool = false
-    
+    @Namespace var namespace
     
     var body: some View {
         NavigationView {
@@ -19,9 +19,9 @@ struct UserCollection: View {
                     ProgressView()
                 } else {
                     if displayGrid {
-                        UserGrid(users: viewModel.users)
+                        UserGrid(namespace: namespace, users: viewModel.users)
                     } else {
-                        UserList(users: viewModel.users)
+                        UserList(namespace: namespace, users: viewModel.users)
                     }
                 }
             }
@@ -30,7 +30,10 @@ struct UserCollection: View {
             }
             .navigationTitle("Random Users")
             .navigationBarItems(trailing: Button(action: {
-                self.displayGrid.toggle()
+                withAnimation(.linear(duration: 0.15)) {
+                    self.displayGrid.toggle()
+                }
+                
             }, label: {
                 Image(systemName: self.displayGrid == true ? "rectangle.grid.1x2.fill" : "square.grid.2x2.fill")
                     .foregroundColor(Color(.label))

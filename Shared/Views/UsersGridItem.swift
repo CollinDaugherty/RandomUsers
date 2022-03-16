@@ -9,6 +9,7 @@ import SwiftUI
 
 struct UsersGridItem: View {
     @ObservedObject var viewModel: UsersListItemViewModel
+    let namespace: Namespace.ID
     
     var body: some View {
         VStack(spacing: 0) {
@@ -19,6 +20,7 @@ struct UsersGridItem: View {
             }
             .scaledToFit()
             .frame(maxWidth: .infinity)
+            .matchedGeometryEffect(id: "\(viewModel.id)-photo", in: namespace)
             
             VStack() {
                 Text(viewModel.fullName)
@@ -35,5 +37,6 @@ struct UsersGridItem: View {
         }
         .background(Color(.secondarySystemGroupedBackground))
         .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+        .matchedGeometryEffect(id: "\(viewModel.id)-item", in: namespace)
     }
 }
